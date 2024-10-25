@@ -255,3 +255,13 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+main .section.main-page{
+  background-color: lightgray;
+
+}
+
+main .section.banner{
+  background-color: blue;
+
+}
