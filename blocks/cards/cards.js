@@ -11,12 +11,12 @@ export default async function decorate(block) {
     [...li.children].forEach((div) => {
       if (div.children.length === 1 && div.querySelector('picture')) div.className = 'cards-card-image';
       else div.className = 'cards-card-body';
-      const heading = div.querySelector('h6');
-      if (heading) {
-        heading.addEventListener('click', () => {
-          heading.innerHTML = foo || 'Click here for more info';
-        });
+      if (div.querySelector('h6')){
+          div.querySelector('h6').addEventListener('click', ()=>{
+            div.querySelector('h6').innerHTML= foo;
+          })
       }
+      
     });
     ul.append(li);
   });

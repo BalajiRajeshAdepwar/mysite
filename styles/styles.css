@@ -266,3 +266,10 @@ main .section.banner{
 
 }
 
+
+main .section.light{
+  background-color: lightgray;
+}
+
+
+
