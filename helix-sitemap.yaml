@@ -1,0 +1,11 @@
+sitemaps:
+  example:
+    origin: https://main--mysite--balajirajeshadepwar.aem.page/
+    default: en
+    lastmod: YYYY-MM-DD
+    languages:
+      en:
+        source: /en/query-index.json
+        destination: /en/sitemap.xml
+        alternate: /en/{path}
+        hreflang: en
